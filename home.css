@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: 'BlackHanSans';
+    src: url(./font/BlackHanSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'NotoSansCJKkr';
+    src: url(./font/NotoSansCJKkr-Medium.otf);
+}
+
+html { font-size: 20px;}
+body { font-size: 1rem; font-weight: 200;}
+
+
+a {text-decoration: none; }
+header > div {font-family: BlackHanSans; position: relative; width: 72rem; margin: 0 auto;}
+header > div:after {content:""; display: block; clear: both;}
+header > div > div.logo {padding: 3.1rem 0 1.65rem; display: inline-block;}
+header > div > div.logo > div {float: left; width: 1.75rem; height: 1.75rem;}
+header > div > div.logo > h1 {float: right; margin: 0 0 0 0.5rem; padding-top: 0.2rem; font-size: 1.2rem; color: white;}
+header > div nav {float: right; padding: 2.25rem 0 0 0;}
+header > div nav > ul > li {float: left; list-style: none;}
+header > div nav > ul > li > a {display: block; padding: .5rem 1.025rem 0; height: 1.3rem; font: size 0.8rem; color: white; line-height: 100%;}
+
+div.main {font-family: BlackHanSans; text-align: center; color: white;}
+div.main > h1 {font-size: 3.6rem; font-weight: 400; padding-top: 18.8rem; padding-bottom: 0.5rem; margin-bottom: 0; margin-top: 0;}
+div.main > h3 {font-size: 1.6rem; margin: 0 auto; padding: 0;}
+div.main > input {width: 15rem; height: 3rem; border-radius: 0.4rem; background-color: #061DFD; border: none; font-size: 0.95rem; font-family: BlackHanSans; color: white; cursor: pointer; margin-top: 3.25rem; margin-bottom: 25.45rem;}  
+
+
+div.food {text-align: center; font-weight: 200;}
+div.food > h2 {font-family: BlackHanSans; font-size: 2.4rem; padding-top: 9rem; margin: 0rem;}
+div.food > hr {margin: 1.65rem auto 1.65rem;}
+div.food > h3 {letter-spacing: -0.0345rem; font-size: 0.8rem; padding-top: 0.05rem; padding-bottom: 1.675rem; font-family: NotoSansCJKkr;}
+div.food > input {letter-spacing: -0.0725re8m; position: relative; display: block; font-family: BlackHanSans; width: 15rem; height: 3rem; border-radius: 0.4rem; background-color: #061DFD; border: none; font-size: 0.95rem; font-family: BlackHanSans; color: white; cursor: pointer; margin: 0.475rem auto;}
+
+div.magazine {text-align: center; font-weight: 200;}
+div.magazine > h2 {font-family: BlackHanSans; font-size: 2.4rem; padding-top: 9rem; margin: 0rem;}
+div.magazine > hr {margin: 1.65rem auto 1.65rem;}
+div.magazine > h3 {letter-spacing: -0.0345rem; font-size: 0.8rem; padding-top: 0.05rem; padding-bottom: 1.675rem; font-family: NotoSansCJKkr;}
+div.magazine > input {letter-spacing: -0.0725rem; position: relative; display: block; font-family: BlackHanSans; width: 15rem; height: 3rem; border-radius: 0.4rem; background-color: #061DFD; border: none; font-size: 0.95rem; font-family: BlackHanSans; color: white; cursor: pointer; margin: 3.65rem auto 14.4rem;}
+div.magazine > div p {margin-top: 2.7rem;}
+
+div.parent1 {display: flex; margin-left: 26.8%;}
+div.child1 {display: 2; width: 10.7rem; height: 9.25rem; object-fit: contain; border: solid 1px #979797;}
+div.child2 {display: 1; margin-left: 2.15rem; text-align: left;}
+div.child2 > h3 {margin: 2.9rem 0 0 0;}
+div.child2 > h4 {margin: 0.45rem 0 0 0; font-weight: 50;}
+
+
+footer {color: white; background-color: #171717;}
+footer > div {font-family: NotoSansCJKkr; font-size: 0.6rem; font-weight: 100; padding: 1.8rem 0 13.35rem 0; width: 72rem; margin: 0 auto;}
+footer > div .left {float: left; line-height: 2.58; letter-spacing: -0.026px; margin-right: 6.1rem;}
+footer > div .right {float: right; width: 16.25rem; vertical-align: top;}
+footer > div > div.right > div.left1 {float: left;}
+footer > div > div.right > div.left1 > a {text-decoration: none; color: white; display: block; line-height: 2.58;}
+footer > div > div.right > div.right1 {float: right; vertical-align: text-top;}
+.fb-button {background: url(./images/fb.png) no-repeat; width: 1.5rem; height: 1.5rem; object-fit: contain; border: none;}
+.insta-button {background: url(./images/oval-copy.png) no-repeat; width: 1.5rem; height: 1.5rem; object-fit: contain; border: none; margin: 0 1.6rem 0;}
+.kkt-button {background: url(./images/oval-copy-2.png) no-repeat; width: 1.5rem; height: 1.5rem; object-fit: contain; border: none;}
+
